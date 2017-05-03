@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Working with the Device Manager"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <View
+            style="@style/gray_divider"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/step2_01"/>
+
+        <ImageView
+            android:id="@+id/step2dd_01"
+            android:layout_width="330dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/step2dd_01"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/step2_02"/>
+
+        <ImageView
+            android:id="@+id/step2dd_02"
+            android:layout_width="330dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/step2dd_02"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/step2_03"/>
+
+        <ImageView
+            android:id="@+id/step2dd_03"
+            android:layout_width="330dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/step2dd_03"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/step2_04"/>
+
+        <ImageView
+            android:id="@+id/step2dd_04"
+            android:layout_width="330dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/step2dd_04"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/step2_05"/>
+
+        <ImageView
+            android:id="@+id/step2dd_05"
+            android:layout_width="330dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/step2dd_05"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/step2_06"/>
+
+        <ImageView
+            android:id="@+id/step2dd_06"
+            android:layout_width="330dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/step2dd_06"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/step2_07"/>
+
+    </LinearLayout>
+</ScrollView>

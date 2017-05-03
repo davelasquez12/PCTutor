@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.david.pctutor.device_driver_tutorial.Step1DDFrag;
+import com.david.pctutor.device_driver_tutorial.Step2DDFrag;
 
 
 public class TutorialVPAdapter extends FragmentStatePagerAdapter
@@ -21,6 +22,8 @@ public class TutorialVPAdapter extends FragmentStatePagerAdapter
 		{
 			case 0:
 				return new Step1DDFrag();
+			case 1:
+				return new Step2DDFrag();
 			default:
 				return null;
 		}
@@ -29,6 +32,6 @@ public class TutorialVPAdapter extends FragmentStatePagerAdapter
 	@Override
 	public int getCount()
 	{
-		return 1;
+		return 2;
 	}
 }

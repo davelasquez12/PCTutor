@@ -2,4 +2,27 @@
     <string name="app_name">PCTutor</string>
     <string name="nav_drawer_opened">Nav drawer opened</string>
     <string name="nav_drawer_closed">Nav drawer closed</string>
+
+    <string name="step2_01">1. Click one of the dropdown arrows for the category where you think
+        the problem lies. For example, if your monitor is experiencing some issue, a good option
+        to try is the Monitors category. Click on the arrow next to Monitors.</string>
+
+    <string name="step2_02">As shown in the picture below, your device name should now show up.</string>
+    <string name="step2_03">2. Right click on the device name and a little menu is displayed. Click
+        on “Update Driver Software…”</string>
+    <string name="step2_04">3. A new window opens up as shown in the picture below. Click the
+        first option that says “Search automatically for updated driver software”.</string>
+    <string name="step2_05">4. Windows will now search online for any updated device drivers the
+        selected device may need. The search should complete in about a minute, more or less.\n\n
+        If an updated driver is found for the specified device, it will automatically begin
+        downloading and installing which could take anywhere from a few seconds to five minutes.
+    </string>
+    <string name="step2_06">5. After installation is complete, the window below will now show (with
+        your device’s name specified instead).</string>
+
+    <string name="step2_07">6. Restart your computer and test out the malfunctioning device.
+        90% of the time, this will fix the issue. If your problem is resolved, congratulations
+        you no longer have to read this guide. But if no driver was found or if your problem
+        persists even after a driver was installed using this method, there is still one more
+        thing you can try.</string>
 </resources>
