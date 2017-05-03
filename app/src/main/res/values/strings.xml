@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PCTutor</string>
+    <string name="nav_drawer_opened">Nav drawer opened</string>
+    <string name="nav_drawer_closed">Nav drawer closed</string>
 </resources>
