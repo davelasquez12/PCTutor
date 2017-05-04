@@ -42,6 +42,7 @@ public class TutorialActivity extends AppCompatActivity
 		mViewPager.setAdapter(mVPAdapter);
 		mViewPager.setOffscreenPageLimit(2);
 		mViewPager.setCurrentItem(0);
+		mStepTextView.setText("Step 1");
 		setListeners();
 	}
 	
