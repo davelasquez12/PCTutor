@@ -9,10 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.david.pctutor.R;
+import com.david.pctutor.TutorialActivity;
 
-/**
- * Created by David on 5/3/2017.
- */
 
 public class Step1DDFrag extends Fragment
 {

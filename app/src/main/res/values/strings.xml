@@ -6,7 +6,6 @@
     <string name="step2_01">1. Click one of the dropdown arrows for the category where you think
         the problem lies. For example, if your monitor is experiencing some issue, a good option
         to try is the Monitors category. Click on the arrow next to Monitors.</string>
-
     <string name="step2_02">As shown in the picture below, your device name should now show up.</string>
     <string name="step2_03">2. Right click on the device name and a little menu is displayed. Click
         on “Update Driver Software…”</string>
@@ -19,10 +18,50 @@
     </string>
     <string name="step2_06">5. After installation is complete, the window below will now show (with
         your device’s name specified instead).</string>
-
     <string name="step2_07">6. Restart your computer and test out the malfunctioning device.
         90% of the time, this will fix the issue. If your problem is resolved, congratulations
         you no longer have to read this guide. But if no driver was found or if your problem
         persists even after a driver was installed using this method, there is still one more
         thing you can try.</string>
+
+    <string name="step3_01">1. Go to the manufacturer’s website. For example, if your computer is
+        made by HP, go to www.hp.com. </string>
+    <string name="step3_02">2. Once you’re at the manufacturer’s website, look for a button or
+        link that says “Support”. Every website is different so you may need to scan the page for
+        the Support link. It is usually found in the menu or at the bottom of the page. Below is an
+        example of the Support button on HP’s website.</string>
+    <string name="step3_03">3. Once you find it, click it, and the loaded page should have a link
+        saying something similar to “Device Drivers and Downloads”.\n\nOn HP’s website specifically,
+        when the Support button is hovered with the mouse cursor, a drop down menu appears. One of
+        the options displayed is “Software &amp; drivers”. Click that option. Each website is
+        different so be on the lookout for different phrases. Almost all of them should include
+        the word “drivers” in them.\n\nIf you can’t find that link or the Support link, you can try
+        a Google search with the following search string: “[manufacturer’s name] device drivers”.
+        The correct link should be the first or second result.</string>
+    <string name="step3_04">4. Next you will have to identify your computer. The page may ask for your
+        computer’s product name, product ID, serial key, service tag, or something else of that
+        sort. The below image shows HP’s page.</string>
+    <string name="step3_04_cont">If you find that information on your computer, which is usually a
+        little sticker on the back or front of your tower if you’re using a desktop or somewhere
+        on the back if you’re using a laptop, enter that information.\n\nSubmit the ID or key and
+        it will immediately find your exact computer model. If you don’t have or can’t find that
+        information, there should be an option where you can enter your computer’s model name.
+        The model name should be engraved somewhere on your computer. If your computer is made by
+        HP, a model name would be Pavilion x360, for example. The picture below gives an
+        example where that information can be found.</string>
+    <string name="step3_05">5. The resulting page should show a list of categories similar to the
+        image below.</string>
+    <string name="step3_05_cont">Find the category you think may be the issue and download the most
+        recent file.  HOWEVER, make sure the file you download is actually a driver. The picture
+        below shows what to be looking for.</string>
+    <string name="step3_05_cont2">Notice the word “Driver” in some of categories. The one you select
+        must be one containing the word “Driver”. If there are multiple drivers available in the
+        category you select, go with the most updated one. Once it’s downloaded, run the file and
+        an install wizard should show up. Follow the install process, restart your computer, and see
+        if that fixed the problem.</string>
+    <string name="step3_06">6. If the problem remains, try installing a different driver on the
+        same support page. If all else fails, try Googling your problem and see if anything useful
+        shows up. After you tried those methods and the problem still hasn’t fixed, you may safely
+        conclude it’s the device that is the problem, not the device drivers. In this unfortunate
+        case, you may need to take the device to a repair shop or have it replaced.</string>
 </resources>
